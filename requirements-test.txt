@@ -1,3 +1,4 @@
 pytest
 requests==2.20.0
 Flask-Testing
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
